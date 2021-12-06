@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'monserrat', sans-serif;
+}
+
+/* navigation */
+.navbar{
+    /* background:linear-gradient(rgba(0,0,0,0.5),ragb(0,0,0,0.6)); */
+    background: #BD2151;
+    padding: .5rem 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+figure {
+    margin: 0 0 0rem;
+}
+.web-logo{
+    width: 80px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+.phone-logo{
+    display: none;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-family: 'monserrat', sans-serif;
+    font-weight: bold;
+}
+.navbar-nav li a:hover{
+   color:#FFE4A3 !important;
+   transition: all .2s ease;
+}
+.navbar-nav .active{
+    color:#FFE4A3 !important;
+ }
+
+
+ /* carousal */
+ .carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 11rem!important;
+}
+.carousel-caption p{
+    font-size: 20px !important;
+    line-height: 2rem!important;
+    letter-spacing: 2px !important;
+    word-spacing: 7px !important;
+    font-family: 'monserrat', sans-serif !important;
+    
+}
+.carousel-caption h1{
+    font-size: 2rem !important;
+}
+.carousel-caption h5{
+    font-size: 1.5rem !important;
+}
+.btn-1{
+    background: #FFE4A3;
+    border: 1px solid #FFE4A3;
+    color: black;
+    font-size: 15px;
+    font-family: 'monserrat', sans-serif !important;
+    border-radius: 30px !important;
+    text-align: center;
+    padding: 10px 20px !important;
+}
+.btn-1:hover{
+    background: #fff;
+    transition: all .2s ease;
+}
+ 
+
+/* section-1  start*/
+.section-1{
+    background-image: linear-gradient(
+        90deg,rgba(0,0,0,0.75) 0%,rgba(0,0,0,0) 100%),url(https://www.stjameshardoi.org/images/about_us.png);
+            background-color: rgba(255,255,255,0);
+
+            background-size: cover;
+            background-repeat: no-repeat;
+}
+.section-1 p{
+    word-wrap: normal;
+    font-family: "
+    'nunito',sans-serif !important;
+    font-size: 16px !important;
+    word-spacing: 0px;
+    letter-spacing: 2px !important;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.section-1 .btn-2{
+    background: #BD2151;
+    border: 1px solid #fff;
+    padding: 9px 26px;
+    border-radius: 30px;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 400;
+    outline: 0;
+   
+}
+.section-1 .btn-2:hover{
+    background:transparent;
+    color:black;
+    transition: all .3s ease-in;
+    border: 1px solid #BD2151;
+}
+
+
+/* section-2 start */
+.section-2{
+    background-image: url("https://www.stjameshardoi.org/images/about_bg.png");
+    background-size: cover;
+    background-repeat:no-repeat ;
+
+}
+.section-2 h1{
+    font-family: poppins-semibold;
+    font-size: 50px;
+    color: #56333E;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.section-2 p{
+    color: #272525;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 40px;
+}
+.section-2 .btn-3{
+    background: #BD2151;
+    border: 1px solid #FFE4A3;
+    padding: 9px 26px;
+    border-radius: 30px;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 400;
+    outline: 0;
+    text-transform: uppercase;
+}
+.section-2 .btn-3:hover{
+    background:transparent;
+    color:black;
+    transition: all .3s ease-in;
+    border: 1px solid #BD2151;
+}
+
+/* section-3 start */
+.section-3{
+background: url("https://www.stjameshardoi.org/images/notice_bg.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+.section-3 h1{
+    font-family: poppins-semibold;
+    font-size: 50px;
+    color: #56333E;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-left:70px !important;
+    }
+.section-3 .notice-item-bg{
+        background: #FFF4DB;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+ .section-3 .nb-date{
+    background: url("https://www.stjameshardoi.org/images/cal_bg.png") no-repeat;
+    width: 80px;
+    height: 100%;
+    font-size: 11px;
+    text-align: center;
+    margin: auto;
+    padding-top: 6px;
+    }
+    .section-3 .nb-date p{
+        padding-bottom: 0px;
+        line-height: 12px;
+            }
+ .section-3 .nb-date .year{
+    font-size: 16px;
+    color: #D48AA1;
+    font-family: poppins-medium;
+        }
+.section-3 .nb-date .date{
+     font-size: 30px;
+     color: #D48AA1;
+     font-family: poppins-medium;
+                }
+ .section-3 .nb-date .month{
+     font-size: 16px;
+    color: #D48AA1;
+    font-family: poppins-medium;
+                        }

@@ -1,0 +1,135 @@
+/* navbar */
+@media (max-width:992px) and (min-width:200px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar{
+    background-color:#ff6600;
+    padding: .5rem 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    opacity: 1;
+    }
+    .web-logo{
+        display: none;
+    }
+    .phone-logo{
+        display: inline-block;
+        width: 70px;
+        border: 1px solid transparent;
+        border-radius: 50%;
+    }
+
+    .navbar-nav li a{
+        color: #fff !important;
+        text-transform: uppercase;
+        font-family: 'monserrat', sans-serif;
+        font-weight: bold;
+    }
+    .navbar-nav li a:hover{
+       color: brown !important;
+    }
+    .navbar-nav .active{
+        color: brown !important;
+        transition: all 0.2s ease !important;
+     }
+     /* carousal start */
+     .carousel{
+        position: relative;
+        margin-top: 94px !important;
+    }
+
+    .carousel-caption{
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 10px!important;;
+    }
+    .carousel-caption h1{
+        font-size: 1.5rem !important;  
+    }
+    .carousel-caption h5{
+        font-size: 1rem !important;
+    }
+    .carousel-caption p{
+        display: none !important;
+    }
+
+    /*  carousal button */
+    .btn-1{
+        background: #FFE4A3;
+        border: 1px solid #FFE4A3;
+        color: black;
+        font-size: 10px;
+        font-family: 'monserrat', sans-serif !important;
+        border-radius: 30px !important;
+        padding: 5px 10px !important;
+    }
+    .btn-1:hover{
+        background: #fff;
+        transition: all .2s ease;
+    }
+
+
+    /* section-2 start */
+
+    .section-2 h1{
+        font-family: poppins-semibold;
+        font-size: 40px;
+        color: #56333E;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .section-2 p{
+        color: #272525;
+        font-size: 20px;
+        text-align: justify;
+        padding-top: 20px;
+    }
+    .section-2 .btn-3{
+        background: #BD2151;
+        border: 1px solid #fff;
+        padding: 9px 26px;
+        border-radius: 30px;
+        color: goldenrod;
+        font-size: 20px;
+        font-weight: 400;
+        outline: 0;
+        text-transform: uppercase;
+    }
+    .section-2 .btn-3:hover{
+        background:transparent;
+        color:black;
+        transition: all .3s ease-in;
+        border: 1px solid #BD2151;
+    }
+    .section-2 .a-btn{
+        text-align: center !important;
+    }
+
+    /* section-3 start */
+    .section-3 h1{
+        font-family: poppins-semibold;
+        font-size: 50px;
+        color: #56333E;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin-left:0px !important;
+        }
+
+     
+}
