@@ -127,9 +127,41 @@
         font-size: 50px;
         color: #56333E;
         padding-top: 30px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         margin-left:0px !important;
+        text-align: center;
+        }
+   .section-3 p{
+            color: #272525;
+            font-size: 20px;
+            text-align: justify;
+            padding-top: 10px;
+        }
+    .section-3 .btn-4{
+            background: #BD2151;
+            border: 1px solid #fff;
+            padding: 9px 26px;
+            border-radius: 30px;
+            color: goldenrod;
+            font-size: 20px;
+            font-weight: 400;
+            outline: 0;
+            text-transform: uppercase;
+        }
+    .section-3 .btn-4:hover{
+            background:transparent;
+            color:black;
+            transition: all .3s ease-in;
+            border: 1px solid #BD2151;
+        }
+    .section-3 .a-btn-1{
+            align-items: center !important;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            
         }
 
+     /* section-4 start */
      
 }
