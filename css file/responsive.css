@@ -42,6 +42,7 @@
         color: brown !important;
         transition: all 0.2s ease !important;
      }
+
      /* carousal start */
      .carousel{
         position: relative;
@@ -67,6 +68,9 @@
     }
     .carousel-caption p{
         display: none !important;
+    }
+    .carousel-indicators [data-bs-target] {
+       display: none;
     }
 
     /*  carousal button */
@@ -163,5 +167,352 @@
         }
 
      /* section-4 start */
+     .section-4 h1{
+        font-family: poppins-semibold;
+        font-size: 50px;
+        color: #56333E;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: -5rem;
+    }
+    .section-4 .web-img{
+      display: none;
+    }
+    .section-4 .phone-img{
+        display: block;
+        margin-top: px;
+    }
+    /* section-5 start */
+    .section-5 h1{
+        font-family: poppins-semibold;
+        font-size: 50px;
+        color: #56333E;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: -3rem;
+    }
+    .section-5 article h3{
+        font-family: poppins-semibold;
+        font-size: 25px;
+        color: #56333E;
+        padding-top:15px;
+        padding-bottom: 5px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .section-5 article p{
+        font-family: poppins-semibold;
+        font-size: 15px;
+        color: #56333E;
+       padding: 5px 10px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    .section-5 article{
+        transition: all .5s ease-in-out ;
+    }
+    .section-5 article:hover{
+        transform: translatey(-30px);
+    }
+    
+
+
+/* about page start */
+
+/*  carousal section  of single pic*/
+.about-carousal-bg-1{
+    background: url("https://www.stjameshardoi.org/images/cropped.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.about-carousal-bg-1 .container .row  h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 12rem;
+    padding-left: 6.5rem;
+    font-family: poppins-semibold;
+    overflow: hidden;
+}
+
+
+/* section-1 */
+.section-about-1{
+
+}
+.section-about-1 .about-img-1 img{
+    height: 300px;
+    width: 330px;
+    margin-top: 0px !important;
+    text-align: center !important;
+    }
+.section-about-1 h1{
+    font-family: poppins-semibold;
+    font-size: 30px;
+    color: #56333E;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    /* text-align: center; */
+}
+.section-about-1 p{
+    font-family: poppins-semibold;
+    font-size: 16px;
+    color: #56333E;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    /* text-align: center !important; */
+}
+
+
+
+/* facilities page start */
+
+/*  carousal section  of single pic*/
+.facilities-carousal-bg-1{
+    background: url("https://www.stjameshardoi.org/images/cropped.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+
+}
+.facilities-carousal-bg-1 .container .row  h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 12rem;
+    padding-left: 5rem;
+    font-family: poppins-semibold;
+    overflow: hidden;
+}
+
+.section-facilities-1 .facilities-fig-img img{
+    width: 330px;
+    height: 200px;
+    text-align: center !important;
+}
+
+
+/* activities page start */
+
+/*  carousal section  of single pic*/
+.activities-carousal-bg-1{
+    background: url("https://www.stjameshardoi.org/images/cropped.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+
+}
+.activities-carousal-bg-1 .container .row  h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 12rem;
+    padding-left: 4.5rem;
+    font-family: poppins-semibold;
+    overflow: hidden;
+}
+
+/* section-1 */
+.section-activities-1 h1{
+    color: #56333E;
+    font-family: poppins-semibold;
+    font-size: 30px;
+}
+.section-activities-1 h4{
+    color: #56333E;
+    font-family: poppins-semibold;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* section-2 */
+.section-activities-2 h1{
+    color: #56333E;
+    font-family: poppins-semibold;
+    font-size: 30px;
+}
+
+.section-activities-2 .activities-column{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 100%;
+    margin:20px  auto;
+    text-align: center !important;
+}
+.section-activities-2 .activities-column img{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+}
+
+
+/* rules and reulation page start */
+
+ /*  carousal section  of single pic*/
+ .rules-carousal-bg-1{
+    background: url("https://www.stjameshardoi.org/images/cropped.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    cursor: pointer;
+
+
+}
+.rules-carousal-bg-1 .container .row  h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 12rem;
+    padding-left: 6.5rem;
+    font-family: poppins-semibold;
+    overflow: hidden;
+}
+
+/* section-1 */
+.section-rules-1 h1{
+    color: #56333E;
+    font-family: poppins-semibold;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.section-rules-1 .border-ac-1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.section-rules-1 .border-ac-2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.section-rules-1 h4{
+    color: #56333E;
+    font-family: poppins-semibold;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+
+/*  gallery page start */
+
+/*  carousal section  of single pic*/
+.gallery-carousal-bg-1{
+    background: url("https://www.stjameshardoi.org/images/cropped.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+
+}
+.gallery-carousal-bg-1 .container .row  h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 12rem;
+    padding-left: 5rem;
+    font-family: poppins-semibold;
+    overflow: hidden;
+}
+
+/* section-1 */
+.section-gallery-1 .container .row  h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: poppins-semibold;
+    color: #56333E;
+    padding: 20px 10px;
+    /* text-align: center; */
+}
+
+
+
+/* contact page start */
+
+.contact-carousal-bg-1{
+    background: url("https://www.stjameshardoi.org/images/cropped.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+
+}
+.contact-carousal-bg-1 .container .row  h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 12rem;
+    padding-left: 3.5rem;
+    font-family: poppins-semibold;
+    overflow: hidden;
+}
+
+/* section-1 */
+.section-contact-1 h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: poppins-semibold;
+    color: #56333E;
+}
+.section-contact-1 p{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: poppins-semibold;
+    color: #56333E;
+}
+.section-contact-1 .college-map iframe{
+    width: 100%;
+    height: 281px;
+    text-align: left
+}
+
+
+
+
+
+
+
+    
      
 }

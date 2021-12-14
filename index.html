@@ -38,7 +38,12 @@
   <title>Rajpoot/Gloval/School.com </title>
 </head>
 
-<body>
+<body onload="myFunction()">
+
+  <!-- lodar start -->
+  <div id="loading"></div>
+  <!-- loader end -->
+
   <!-- navbar start -->
 
   <nav class="navbar navbar-expand-md navbar-light">
@@ -56,25 +61,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">about </a>
+            <a class="nav-link" href="about.html">about </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">facilities </a>
+            <a class="nav-link" href="facilities.html">facilities </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">activities </a>
+            <a class="nav-link" href="activities.html">activities </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"> admission</a>
+            <a class="nav-link" href="rule.html">rule's</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">gallery </a>
+            <a class="nav-link" href="gallery.html">gallery </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contact </a>
+            <a class="nav-link" href="contact.html">contact </a>
           </li>
         </ul>
       </div>
@@ -142,7 +147,8 @@
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-10 text-center my-5">
-            <h1 class="text-white py-4">Welcome TO IN<span style="color: #e83e8c;"> RAJPOOT GLOBAL SCHOOL</span></h1>
+            <h1 class="text-white py-4 text-uppercase" style="font-family: poppins-semibold;">Welcome TO IN<span
+                style="color: #56333E; font-family: poppins-semibold;;"> RAJPOOT GLOBAL SCHOOL</span></h1>
             <p class="pt-2 pb-3 text-white">Not much is known about our founding fathers, but this much is certain that
               it began with a vision - a vision for children who, irrespective of language, creed or colour would grow
               up in an institution devoid of racial prejudices,<br> would be able to express themselves fearlessly and
@@ -230,73 +236,330 @@
   <!-- section-4 start -->
 
   <section class="section-4 my-3 shodow">
-    <div class="container-fluid">
-      <div class="container shadow pb-5">
-        <div class="row d-flex mx-auto">
-          <h1>Our Gallery</h1>
-          <!-- col md-5 start -->
-          <div class="col-md-5 text-end">
-            <img src="https://www.stjameshardoi.org/images/gallery_img.png " class="img-fluid img-thumbnail"
-              alt="section-4-img">
-          </div>
-          <!--col-md-5 end-->
 
-          <!-- col-md-7 start -->
-          <div class="col-md-7">
-           <!--  -->
+    <!-- container web-img start -->
+    <div class="container web-img">
+      <div class="row text-center">
+        <h1 class="text-center">Our Gallery</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          
+
+          <div class="carousel-inner d-flex" id="carousal-display">
+
+            <div class="carousel-item active">
+              <img src="http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1550723014*%5E*IMG3850250x167.jpg"
+                class=" img-fluid" alt="first-slider" style="width: 300px;height: 210px; padding: 10px;">
+              <img src=" http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1637241445*%5E*ICSEISC2022.jpeg"
+                class="img-fluid" alt="...first-slider" style="width: 300px;height: 210px; padding: 10px;">
+              <img
+                src=" http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1616678219*%5E*IMG-20210325-WA0008.jpg"
+                class="img-fluid" alt=".first-slider.." style="width: 300px;height: 210px; padding: 10px;">
+              <img
+                src="	http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1566963870*%5E*DSC3337250x167.jpg"
+                class="img-fluid" alt="..first-slider." style="width: 300px;height: 210px; padding: 10px;">
+            </div>
+
+            <div class="carousel-item ">
+              <img
+                src=" 	http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1566964080*%5E*DSC5858250x167.jpg"
+                class="img-fluid" alt=".second-slider.." style="width: 300px;height: 210px; padding: 10px;">
+              <img src="	https://www.stjameshardoi.org/album/st_james.jpg" class="img-fluid" alt="..second-slider."
+                style="width: 300px;height: 210px; padding: 10px;">
+              <img src="	https://www.stjameshardoi.org/album/DSC07082.jpg" class="img-fluid" alt="..second-slider."
+                style="width: 300px;height: 210px; padding: 10px;">
+              <img
+                src=" http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1550723757*%5E*IMG3710250x167.jpg"
+                class="img-fluid" alt="..second-slider." style="width: 300px; height: 210px; padding: 10px;">
+            </div>
+
+            <div class="carousel-item ">
+              <img src="https://www.stjameshardoi.org/album/DSC07028.jpg" class="img-fluid" alt=".third-slider.."
+                style="width: 300px;height: 210px; padding: 10px;">
+              <img src=" https://www.stjameshardoi.org/album/DSC05781.jpg" class="img-fluid" alt=".third-slider.."
+                style="width: 300px;height: 210px; padding: 10px;">
+              <img src=" https://www.stjameshardoi.org/album/DSC07028.jpg" class="img-fluid" alt="..third-slider."
+                style="width: 300px; height: 210px; padding: 10px;">
+              <img src=" https://www.stjameshardoi.org/album/st_james.jpg" class="img-fluid" alt=".third-slider.."
+                style="width: 300px; height: 210px; padding: 10px;">
+            </div>
           </div>
-          <!--col-md -7 end-->
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <!--row end-->
       </div>
-      <!--container end-->
     </div>
-    <!---container fluid end-->
+
+    <!-- container web-img end -->
+
+    <!-- container phone-img start -->
+
+    <div class="container phone-img">
+      <div class="row">
+        <h1 class="#">Our Gallery</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+              aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+              aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+              aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+              aria-label="Slide 9"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9"
+              aria-label="Slide 10"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10"
+              aria-label="Slide 11"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11"
+              aria-label="Slide 12"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1550723014*%5E*IMG3850250x167.jpg"
+                class=" img-fluid w-100" alt="first-slider" style="height: 300px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img src="http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1637241445*%5E*ICSEISC2022.jpeg"
+                class="img-fluid w-100" alt="...first-slider" style="height: 250px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="	 http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1616678219*%5E*IMG-20210325-WA0008.jpg"
+                class="img- w-100" alt=".first-slider.." style="height: 250px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="	http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1566963870*%5E*DSC3337250x167.jpg"
+                class="img-fluid w-100" alt="..first-slider." style="height: 250px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img
+                src=" http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1566964080*%5E*DSC5858250x167.jpg"
+                class="img-fluid w-100" alt=".second-slider.." style="height: 250px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img src="		https://www.stjameshardoi.org/album/st_james.jpg" class="img-fluid w-100"
+                alt="..second-slider." style="height: 250px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img src="		https://www.stjameshardoi.org/album/DSC07082.jpg" class="img-fluid w-100"
+                alt="..second-slider." style="height: 250px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="http://stjamesschoolkolkata.com/admin/images/portfolio/normal/1550723757*%5E*IMG3710250x167.jpg "
+                class="img-fluid w-100" alt="..second-slider." style="height: 250px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.stjameshardoi.org/album/DSC07028.jpg " class="img-fluid w-100" alt=".third-slider.."
+                style="height:  250px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img src="  https://www.stjameshardoi.org/album/DSC05781.jpg" class="img-fluid w-100"
+                alt=".third-slider.." style="height:  250px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.stjameshardoi.org/album/DSC07028.jpg " class="img-fluid w-100" alt="..third-slider."
+                style="height:  250px; padding: 10px;">
+            </div>
+            <div class="carousel-item">
+              <img src="  https://www.stjameshardoi.org/album/st_james.jpg" class="img-fluid w-100"
+                alt=".third-slider.." style="height:  250px; padding: 10px;">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- container phone-img end -->
+
   </section>
 
   <!-- section-4 end -->
 
+  <!-- section-5 statrt -->
+  <section class="section-5  my-3 shadow">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="#">
+          <h1>School Other Details</h1>
+        </div>
+        <div class="row py-5 g-4">
+
+          <div class="col-md-4 col-lg4 col-sm-4">
+            <article>
+              <div class="bg-white article-content-3">
+
+                <div class="img-border">
+                  <img
+                    src=" http://stjamesschoolkolkata.com/admin/images/school_other/thumbnail/1507631012*%5E*school-song-1.jpg "
+                    class="img-fluid" alt="sc-img">
+                </div>
+                <div class="bg-white">
+                  <h3>The School Song</h3>
+                  <P>Our Church comes first, our Ecclesia
+                    God’s brotherhood of every race
+                    God’s children of the second birth
+                    We’ll spread its message o’er the earth
+                    We’ll raise the Cross in every place....</P>
+                  <a href="#" class="btn-5">read more.. <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4 col-lg4 col-sm-4">
+            <article>
+              <div class="bg-white article-content-3">
+                <div class="img-border">
+                  <img
+                    src=" http://stjamesschoolkolkata.com/admin/images/school_other/thumbnail/1507630699*%5E*principal-updated-1.jpg "
+                    class="img-fluid" alt="sc-img">
+                </div>
+                <div class="bg-white">
+                  <h3>Principal's Desk</h3>
+                  <P>When I joined Rajpoot global' School in 2000 I was very impressed with the infrastructure and
+                    facilities available, some facilities unique to an institutio. . .</P>
+                  <a href="#" class="btn-5">read more.. <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4 col-lg4 col-sm-4">
+            <article>
+              <div class="bg-white article-content-3">
+                <h3>Latest News</h3>
+                <P>ALL THE BEST BOYS' TO THE BATCH OF ICSE & ISC 2021- 2022: PRINCIPAL.</P>
+
+                <div class="border-1"></div>
+
+                <p>NURSERY ADMISSION ACADEMIC YEAR 2022-23</p>
+
+                <div class="border-1"></div>
+
+                <a href="#" class="btn-5">read more.. <i class="fas fa-arrow-right"></i></a>
+
+                <div class="border-2"></div>
+
+                <div class="marquee-content">
+                  <p>Upcoming Events</p>
+                  <marquee scrollamoun="6px" direction="up">
+                    <P>ALL THE BEST BOYS' TO THE BATCH OF ICSE & ISC 2021- 2022:</P>
+                    <P>ALL THE BEST BOYS' TO THE BATCH OF ICSE & ISC 2021- 2022: PRINCIPAL
+                    <p> 18-11-2021</p>
+                    <p> NURSERY ADMISSION ACADEMIC YEAR 2022-23</P>
+                    <P> Final list of selected candidates, applied for Admission in Nursery 2022, will be notified on
+                      the
+                      School notice board, on 2nd December 2021 at 2 pm</P>
+                  </marquee>
+                </div>
+
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section-5 end -->
+
+  <!-- section-6 start -->
+
+  <section class="section-6 mt-3 shadow">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+            <div class="row pb-3 mx-auto">
+              <h1>Quick Links</h1>
+
+              <div class="col-md-4 col-md-4 text-start">
+                <ul>
+                  <li><a href="#">Awards</a></li>
+                  <li><a href="#">Exam Schedules</a></li>
+                  <li><a href="#">School Calendar</a></li>
+                  <li><a href="#">Junior School</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-4 col-md-4 text-start">
+                <ul>
+                  <li><a href="#">Rules of Conduct</a></li>
+                  <li><a href="#">The Jacobean</a></li>
+                  <li><a href="#">Staff of Rajpoot Global</a></li>
+                  <li><a href="#"> Photo Gallery</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-4 col-md-4 text-start">
+                <ul>
+                  <li><a href="#">School Alumni</a></li>
+                  <li><a href="#"> School Houses</a></li>
+                  <li><a href="#"> Website Team</a></li>
+                  <li><a href="#">Notable Alumni</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-2 col-lg-2"></div>
+
+          <div class="col-md-4 row-cols-lg-4 mt-5">
+            <div class="py-4 content-logo-details my-4 text-end">
+              <img src="images/LOGO1.png" class="img-fluid web-logo " alt="content-logo">
+
+              <img src="images/LOGO2.png" class="img-fluid phone-logo " alt="content-logo">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section-6 end -->
 
 
+  <!-- footer start -->
 
+  <div class="container-fluid bg-dark py-4 text-center text-white fs-4 footer-text-1">
+    © Rajpoot Gloval' School 2021. All Rights Reserved
+  </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <!-- footer end -->
 
 
 
@@ -347,6 +610,15 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
+  <!-- lodar js -->
+  <script>
+    var preloader = document.getElementById('loading');
+    function myFunction() {
+      preloader.style.display = "none";
+    }
+
+  </script>
 
   <!-- jquery cdn -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
