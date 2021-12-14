@@ -8,6 +8,9 @@
     body{
         font-family: 'Poppins', sans-serif;
     }
+    a{
+        text-decoration: none;
+    }
 
     .navbar{
     background-color:#ff6600;
@@ -257,6 +260,7 @@
     width: 330px;
     margin-top: 0px !important;
     text-align: center !important;
+    width: 100%;
     }
 .section-about-1 h1{
     font-family: poppins-semibold;
